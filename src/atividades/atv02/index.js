@@ -9,10 +9,10 @@ export default function Atividade02() {
         <View style={styles.container}>
             <Text style={styles.titulo}>Atividade 02</Text>
 
-            <Mensagem titulo={'Camisa Branca e Preta'}>Você não clicou corretamente!</Mensagem>
-            <Mensagem titulo={'Camisa Preta'}>Acesso permitido</Mensagem>
-            <Mensagem titulo={'Camisa Listrada'}>O tmepo acabou!</Mensagem>
-            <Mensagem titulo={'Camisa São Jorge'}>O tmepo acabou!</Mensagem>
+            <Mensagem titulo={'Camisa Branca e Preta'}>Camisa com listras largas, Modelo 2024</Mensagem>
+            <Mensagem titulo={'Camisa Preta'}>Camisa preta com listras, Modelo 2024</Mensagem>
+            <Mensagem titulo={'Camisa Listrada'}>Camisa com listras, modelo clássico</Mensagem>
+            <Mensagem titulo={'Camisa São Jorge'}>Camisa modelo de 2012</Mensagem>
         </View>
     );
 }
