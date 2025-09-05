@@ -13,10 +13,10 @@ const styles = StyleSheet.create(
 
         titulo: {
             fontSize: RFPercentage(3),
-            color: '#00bfff',
+            color: '#D50000',
             fontWeight: 'bold',
-            borderWidth: 2,
-            borderColor: '#00bfff',
+            borderWidth: 4,
+            borderColor: '#000',
             marginTop: 10,
             marginBottom: 10,
             padding: 8,
@@ -24,7 +24,7 @@ const styles = StyleSheet.create(
             height: 80,
             textAlign: 'center',
             textAlignVertical: 'center',
-            borderRadius: 20,
+            borderRadius: 50,
         },
 
         imagem: {

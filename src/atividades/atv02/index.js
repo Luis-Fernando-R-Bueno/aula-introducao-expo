@@ -1,7 +1,5 @@
-import { View, Text, Image}  from 'react-native';
-
+import {View, Text, Image}  from 'react-native';
 import styles from './styles';
-
 import Mensagem from './mensagem';
 
 export default function Atividade02() {

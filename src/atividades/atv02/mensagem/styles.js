@@ -5,17 +5,17 @@ const styles = StyleSheet.create(
     {
         container: {
             backgroundColor: '#fff',
-            borderWidth: RFPercentage(0.6),
+            borderWidth: RFPercentage(0.4),
             width: '90%',
             padding: 8,
             alignItems: 'center',
-            borderRadius: 20,
+            borderRadius: 30,
             marginBottom: RFPercentage(1),
         },
 
         titulo: {
             fontSize: RFPercentage(3),
-            color: '#121212',
+            color: '#D50000',
             fontWeight: 'bold',
             marginBottom: RFPercentage(1),
         },

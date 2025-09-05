@@ -1,12 +1,14 @@
-import {View, Text} from 'react-native';
-
+import {View, Text, Image} from 'react-native';
 import styles from './styles';
+import img from '../../../assets/camisa 1.png';
 
-export default function Mensagem({titulo, children}) {
+function Mensagem({titulo, children}) {
     return(
         <View style={styles.container}>
             <Text style={styles.titulo}>{titulo}</Text>
             <Text style={styles.texto}>{children}</Text>
         </View>
-    );
+    )
 }
+
+export default function Mensagem;

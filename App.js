@@ -12,7 +12,7 @@ import Atividade02 from './src/atividades/atv02';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Atividade02/>
+      <Atividade02 />
       <StatusBar style="auto" />
     </View>
   );
@@ -21,7 +21,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#00bfff',
+    backgroundColor: '#fff',
     padding: 10,
     paddingTop: Constants.statusBarHeight,
   },
