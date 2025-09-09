@@ -10,7 +10,7 @@ import img3 from '../../../assets/saopaulomandrake.jpg'
 
 import Card from './card';
 
-function Exemplo02 (){
+function Atividade02 (){
     return(
         <View style={styles.container}>
             <Text style={styles.titulo}>Loja Oficial do São Paulo</Text>
@@ -46,4 +46,4 @@ function Exemplo02 (){
     );
 }
 
-export default Exemplo02;
+export default Atividade02;
