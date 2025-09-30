@@ -1,15 +1,16 @@
+import * as React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TextInput} from 'react-native';
 import Constants from 'expo-constants';
 
-import Exemplo04 from './src/exemplos/ex04';
+import Index from './src/components/index';
 
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo04 />
+      <Index />
       <StatusBar style="light" />''
     </View>
   );
@@ -18,8 +19,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    justifyContent: 'center',
     backgroundColor: 'darkslategrey',
-    padding: 10,
+    padding: 8,
     paddingTop: Constants.statusBarHeight,
   },
 });
