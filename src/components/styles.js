@@ -31,11 +31,14 @@ const styles = StyleSheet.create(
             backgroundColor: '#E53935',
             height: 40,
             justifyContent:'center',
-
+            borderRaduius: 10,
+            marginTop: 20,
         },
 
         textButton: {
-
+            fontSize: 22,
+            color: '#FFCDD2',
+            textAlign: 'center',
         },
     }
 );
