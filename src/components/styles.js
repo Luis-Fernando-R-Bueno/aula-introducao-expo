@@ -4,6 +4,7 @@ import { RFPercentage } from "react-native-responsive-fontsize";
 const styles = StyleSheet.create(
     {
         container: {
+            fontFamily: 'Arial',
             backgroundcolor: 'white',
             // alignItems: 'center',
             // flex: 1,
@@ -11,7 +12,7 @@ const styles = StyleSheet.create(
 
         txtSaida: {
             margin: 24,
-            fontSize: 22,
+            fontSize: 32,
             fontWeight: 'bold',
             textAlign: 'center',
             color: '#E53935',
@@ -22,24 +23,32 @@ const styles = StyleSheet.create(
             textAlign: 'center',
             fontSize: 22,
             borderColor: '#B71C1C',
-            height: 40,
+            height: 60,
             color: '#E53935',
-            borderRadius: 10,
+            borderRadius: 35,
         },
 
         button: {
             backgroundColor: '#E53935',
             height: 40,
-            justifyContent:'center',
+            justifyContent: 'center',
             borderRaduius: 10,
             marginTop: 20,
         },
 
         textButton: {
             fontSize: 22,
-            color: '#FFCDD2',
+            color: 'white',
             textAlign: 'center',
         },
+
+        paragraph: {
+            margin: 24,
+            fontSize: 26,
+            fontWeight: 'bold',
+            textAlign: 'center',
+            color: 'white',
+        }
     }
 );
 
