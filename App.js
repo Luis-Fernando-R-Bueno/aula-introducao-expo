@@ -1,14 +1,14 @@
 import * as React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, TextInput } from 'react-native';
+import { StyleSheet, Text, View, TextInput, TouchableOpacity} from 'react-native';
 import Constants from 'expo-constants';
 
-import Exemplo05 from './src/exemplos/ex05/index';
+import Exemplo06 from './src/exemplos/ex06/index';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo05/>
+      <Exemplo06/>
       <StatusBar style="light" />''
     </View>
   );
