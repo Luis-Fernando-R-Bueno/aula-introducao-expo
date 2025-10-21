@@ -1,48 +1,58 @@
-import { StyleSheet} from 'react-native'; 
+import { StyleSheet } from 'react-native';
 import { RFPercentage } from "react-native-responsive-fontsize";
- 
+
 const styles = StyleSheet.create(
-    {
-        container: {
-            backgroundColor: '#ff0',
-            //alignItems: 'center',
-            //justifyContent: 'space-evenly',
-        },
+     {
+          container: {
+               flex: 1,
+               backgroundColor: 'white',
+               justifyContent: 'center',
+               padding: 8,
+          },
 
-       entradaImc: {
-            flex: 1,
-            flexDirection: 'row',
-       },
+          entradaImc: {
+               flex: 1,
+               flexDirection: 'row',
+          },
 
-       input: {
-            height: 80,
-            textAlign: 'center',
-            width: '50%',
-            fontSize: 50,
-            marginTop: 24,
-            color: 'lightgray',
-       },
+          input: {
+               height: 80,
+               textAlign: 'center',
+               width: '50%',
+               fontSize: 50,
+               marginTop: 24,
+               color: 'lightgray',
+          },
 
-       button: {
-            backgroundColor: '#89FFA5',
-       },
+          button: {
+               backgroundColor: 'red',
+          },
 
-       buttonText: {
-            alignSelf: 'center',
-            padding: 30,
-            fontSize: 25,
-            color: '#6DC4A4',
-            fontWeight: 'bold',
-       },
+          buttonText: {
+               alignSelf: 'center',
+               padding: 30,
+               fontSize: 25,
+               color: 'white',
+               fontWeight: 'bold',
+          },
 
-       resultados: {
-            alignSelf: 'center',
-            color: 'lightgray',
-            fontSize: 65,
-            padding: 15,
-       },
-    }
+          resultados: {
+               alignSelf: 'center',
+               color: 'lightgray',
+               fontSize: 65,
+               padding: 15,
+          },
+
+
+          paragraph: {
+               margin: 6,
+               fontSize: 56,
+               fontWeight: 'bold',
+               textAlign: 'center',
+               color: 'gray',
+               marginBottom: RFPercentage(4),
+          }
+     }
 );
-
 
 export default styles;

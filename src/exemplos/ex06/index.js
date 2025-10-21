@@ -1,7 +1,7 @@
 import { View, Text, TextInput, TouchableOpacity} from 'react-native';
 
 import styles from './styles';
-import { use, useState } from 'react';
+import { useState } from 'react';
 
 export default function Exemplo06() {
 
@@ -9,19 +9,39 @@ export default function Exemplo06() {
     const[altura, setAltura] = useState(0);
     const[resultado, setResultado] = useState(0);
 
+    function Calcular(){
+        const valor = massa / (altura * altura);
+        setResultado(valor);
+    }
+
     return (
         <View style={styles.container}>
             <Text style={styles.paragraph}>Exemplo 06</Text>
             <View style={styles.entradaImc}>
-                <TextInput plcaceholder='Massa' placeholderTextColor='lightgray' keyboardType='numerica' style={styles.input}/>
-                <TextInput plcaceholder='Altura' placeholderTextColor='lightgray' keyboardType='numerica' style={styles.input}/>
+                <TextInput 
+                placeholder='Massa' 
+                placeholderTextColor='red' 
+                keyboardType='numeric' 
+                style={styles.input}
+                onChangeText={(entrada) => setMassa(entrada)}
+                />
+
+                <TextInput 
+                placeholder='Altura' 
+                placeholderTextColor='red' 
+                keyboardType='numeric' 
+                style={styles.input}
+                onChangeText={(entrada) => setAltura(entrada)}
+                />
             </View>
 
-            <TouchableOpacity style={styles.button} onPress={()=>{}}>
+            <TouchableOpacity style={styles.button} onPress={()=>Calcular()}>
                 <Text style={styles.buttonText}>Calcular</Text>
             </TouchableOpacity>
 
-            <Text style={styles.resultados}>{resultado}</Text>
+            <Text style={styles.resultados}>{resultado.toFixed(2)}</Text>
         </View>
     );
 }
+
+
