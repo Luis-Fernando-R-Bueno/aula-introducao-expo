@@ -51,7 +51,15 @@ const styles = StyleSheet.create(
                textAlign: 'center',
                color: 'gray',
                marginBottom: RFPercentage(4),
-          }
+          },
+
+          faixaPeso: {
+               alignSelf: 'center',
+               color: 'lightgray',
+               fontSize: 21,
+               padding: 15,
+               marginBottom: RFPercentage(4),
+          },
      }
 );
 
