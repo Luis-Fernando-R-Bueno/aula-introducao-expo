@@ -3,7 +3,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
 import Constants from 'expo-constants';
 
-import Exemplo06 from './src/exemplos/ex06/index';
+import Exemplo06 from './src/atividades/atv06/index';
 
 export default function App() {
   return (
