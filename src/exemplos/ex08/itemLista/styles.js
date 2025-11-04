@@ -15,7 +15,7 @@ const styles = StyleSheet.create(
 
         txtItem: {
             fontSize: RFValue(16),
-        }
+        },
     }
 );
 
