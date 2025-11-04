@@ -3,12 +3,12 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
 import Constants from 'expo-constants';
 
-import Exemplo06 from './src/atividades/atv06/index';
+import Exemplo08 from './src/exemplos/ex08/index';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo06 />
+      <Exemplo08 />
       <StatusBar style='default' />
     </View>
   );
